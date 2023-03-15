@@ -1,0 +1,51 @@
+.table {
+    border: 2px solid black;
+}
+
+.btn {
+    border: 2px solid black;
+    width: 100%;
+    background: #30e3df;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    border: 2px solid black;
+    background: #a5f1e9;
+}
+
+.tombol1 {
+    background: #f9f54b;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tombol1 a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.tombol2 {
+    background: red;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tombol2 button {
+    color: #fff;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.tombol1:hover {
+    background: #f49d1a;
+}
+
+.tombol2:hover {
+    background: #cd0404;
+}

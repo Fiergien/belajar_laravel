@@ -1,0 +1,49 @@
+.col {
+    background: rgb(151, 222, 255);
+    background: linear-gradient(
+        0deg,
+        rgba(151, 222, 255, 1) 0%,
+        rgba(237, 237, 237, 1) 55%,
+        rgba(174, 215, 255, 1) 98%
+    );
+}
+
+.d-flex {
+    background: rgb(151, 222, 255);
+    background: linear-gradient(
+        0deg,
+        rgb(122, 205, 243) 0%,
+        rgba(237, 237, 237, 1) 55%,
+        rgb(161, 202, 243) 98%
+    );
+    border: 2px solid black;
+    height: 1000px;
+}
+
+span {
+    text-decoration: none;
+    color: black;
+}
+
+.card {
+    margin-top: 20px;
+    width: 200px;
+    justify-content: center;
+    font-family: "Times New Roman", Times, serif;
+    border-radius: 40px;
+    background: transparent;
+    background: #c9eeff;
+}
+
+.card:hover {
+    margin-left: 20px;
+    transition: 0.5s;
+    background: #eaedee;
+    border: 2px solid #fff;
+}
+
+button {
+    background: transparent;
+    border: none;
+    text-align: center;
+}
